@@ -1,0 +1,117 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
+    --letter:#242424;
+    --gray35:rgb(36, 36, 36, 0.35);
+    --gray60:rgb(36, 36, 36, 0.60);
+    --white:#FFFFFF;
+}
+
+body{
+    margin: 0;
+}
+ p{
+    
+    margin:0;
+ }
+
+.hero-section{
+    background-image: url(/img/hero-bg.jpg);
+    background-size: cover;
+    z-index: 100;
+    
+}
+.container{
+    width:1280px;
+    margin: 0 auto; 
+}
+header{
+    width: 100%;
+    padding: 36px 0;
+    display:flex;
+    align-items: center;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display:flex;
+    column-gap: 53px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--letter);
+    font-size: 16px;
+}
+
+.conta{
+    display: flex;
+    align-items: center;
+}
+.conta a{
+    font-size: 14px;
+    padding:13px 82px;
+    color: var(--gray60);
+    border: 1px solid var(--gray35);
+    border-radius: 24px;
+    text-decoration: none;
+}
+
+.bank-hero{
+    padding-top: 123px;
+    padding-bottom: 191px;
+    width: 613px;
+}
+
+.new{
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--gray35);
+    padding: 9px 25px;
+    border-radius: 24px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+}
+.destaque{
+    text-transform: uppercase;
+    background-color: #006D8F;
+    border-radius: 20px;
+    padding:3px 7px;
+    color: var(--white);
+    margin-right:8px;
+    font-weight: 600;
+}
+
+.bank-hero h1{
+    font-size: 60px;
+    font-weight: 300;
+    color: var(--letter);
+    line-height: 76px;
+}
+.bank-hero p{
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--letter);
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+.nossos-produtos{
+    text-decoration: none;
+    padding: 14px 98px;
+    color: var(--letter);
+    background-color:yellow;
+    border-radius: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
