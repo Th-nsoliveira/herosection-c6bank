@@ -19,7 +19,7 @@ body{
  }
 
 .hero-section{
-    background-image: url("img/hero-bg.jpg");
+    background-image: url("../img/hero-bg.jpg");
     background-size: cover;
     z-index: 100;
     
